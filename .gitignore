@@ -22,6 +22,10 @@ memory
 .nfs*
 
 ### Node ###
+
+
+.env
+
 # Logs
 logs
 *.log
