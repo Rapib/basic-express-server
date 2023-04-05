@@ -88,5 +88,8 @@ From a business requirements standpoint, we will be building a basic Express ser
 
 ### Deployment
 
-[deploy]()
+[deploy](https://exserver.onrender.com)
 
+### UML 
+
+![UML](401-lab2.jpg)
