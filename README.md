@@ -1,19 +1,4 @@
-# LAB: Express
-
-Dynamic API Phase 1: Build your core, standards compliant Express server
-
-## Before you begin
-
-1. Refer to the *Getting Started* guide  in the [lab submission instructions](../../../reference/submission-instructions/labs/README.md)
-1. Create a new repository called `basic-express-server`
-1. Work in a new branch called `dev`, created from `main`
-1. Following completion of this assignment, create a Pull Request from `dev` to `main` and merge your code
-   - You will deploy from your `main` branch to a new application at your cloud service provider
-   - You will add a link to the PR that you merged in your README for grading purposes
-
-## Phase 1 Requirements
-
-From a business requirements standpoint, we will be building a basic Express server using best practices, including server modularization, use of middleware, and tests.
+# Basic Express server
 
 ### Person Route
 
@@ -27,29 +12,6 @@ From a business requirements standpoint, we will be building a basic Express ser
 ### Implementation Notes
 
 - Create an express server with the following proposed structure
-
-```text
-├── .github
-│   ├── workflows
-│   │   └── node.yml
-├── __tests__
-│   ├── server.test.js (integration test)
-├── src
-│   ├── error-handlers
-│   │   ├── 404.js
-│   │   ├── 500.js
-│   ├── middleware
-│   │   ├── logger.js
-│   │   ├── logger.test.js (unit test)
-│   │   ├── validator.js
-│   │   └── validator.test.js
-│   └── server.js
-├── .eslintrc.json
-├── .gitignore
-├── index.js
-├── package.json
-└── README.md
-```
 
 - `index.js` at the root of your repository, which will act as the "entry point" to your server.
   - should require `src/server.js`
@@ -88,8 +50,4 @@ From a business requirements standpoint, we will be building a basic Express ser
 
 ### Deployment
 
-[deploy](https://exserver.onrender.com)
-
-### UML 
-
-![UML](401-lab2.jpg)
+<htps://exserver.onrender.com>
